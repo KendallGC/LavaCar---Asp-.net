@@ -1,0 +1,15 @@
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\DATOS.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\ENTIDAD.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\EntityFramework.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\DATOS.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\DATOS.dll.config
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\ENTIDAD.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\ENTIDAD.dll.config
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\bin\Debug\EntityFramework.xml
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\obj\Debug\NEGOCIO.csprojAssemblyReference.cache
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\obj\Debug\NEGOCIO.csproj.CopyComplete
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\NEGOCIO\obj\Debug\NEGOCIO.pdb

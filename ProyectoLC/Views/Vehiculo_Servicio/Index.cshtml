@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ENTIDAD.Vehiculo_Servicio>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+
+    <link href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+}
+
+<h2>Index</h2>
+
+<p>
+    @*@Html.ActionLink("Crear Nuevo Servicio por Vehiculo", "Crear")*@
+    <a class="btn btn-primary" href="@Url.Action("Crear", "Vehiculo_Servicio")"><i class="glyphicon glyphicon-plus"></i> Crear Nuevo Servicio por Vehiculo</a>
+</p>
+<table class="table" id="tableDemo">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_Vehiculo_Servicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_Servicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_Vehiculo)
+            </th>
+            <th></th>
+        </tr>
+
+    </thead>
+  
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_Vehiculo_Servicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_Servicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_Vehiculo)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Editar", new { id = item.ID_Vehiculo_Servicio }) |
+                    @Html.ActionLink("Detalles", "GetVehiculo_Servicio", new { id = item.ID_Vehiculo_Servicio }) |
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = item.ID_Vehiculo_Servicio })
+
+                    <a class="btn btn-primary btn-xs" title="Editar" href="@Url.Action("Editar", "Vehiculo_Servicio", new { id = item.ID_Vehiculo_Servicio })">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </a>
+                    <a class="btn btn-info btn-xs" title="Detalles" href="@Url.Action("GetVehiculo_Servicio", "Vehiculo_Servicio", new {  id = item.ID_Vehiculo_Servicio })">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                    </a>
+                    <a class="btn btn-danger btn-xs" title="Eliminar" href="@Url.Action("Eliminar", "Vehiculo_Servicio", new { id = item.ID_Vehiculo_Servicio })">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    
+
+</table>
+
+@section scripts{
+    <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <script>
+
+        $('#tableDemo').DataTable({
+            "pageLength": 10,
+            lengthMenu: [10, 20,50, 100,200],
+        });
+    </script>
+}

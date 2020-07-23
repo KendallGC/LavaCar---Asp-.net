@@ -1,0 +1,15 @@
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\DATOS.dll.config
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\DATOS.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\DATOS.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\ENTIDAD.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\EntityFramework.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\ENTIDAD.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\ENTIDAD.dll.config
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\EntityFramework.xml
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\obj\Debug\DATOS.csprojAssemblyReference.cache
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\obj\Debug\DATOS.csproj.CoreCompileInputs.cache
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\obj\Debug\DATOS.csproj.CopyComplete
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\obj\Debug\DATOS.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\DATOS\obj\Debug\DATOS.pdb

@@ -1,0 +1,12 @@
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\ENTIDAD.dll.config
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\ENTIDAD.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\ENTIDAD.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\EntityFramework.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\EntityFramework.xml
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\obj\Debug\ENTIDAD.csproj.CoreCompileInputs.cache
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\obj\Debug\ENTIDAD.csproj.CopyComplete
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\obj\Debug\ENTIDAD.dll
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\obj\Debug\ENTIDAD.pdb
+C:\Users\kcerv\OneDrive\Escritorio\ProyectoLC\ENTIDAD\obj\Debug\ENTIDAD.csprojAssemblyReference.cache

@@ -1,0 +1,50 @@
+﻿@model ENTIDAD.Servicios
+
+@{
+    ViewBag.Title = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Eliminar</h2>
+
+<h3>Estas seguro de eliminar este registro</h3>
+<div>
+    <h4>Servicios</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_Servicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_Servicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripción)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripción)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+    @*@Html.ActionLink("Regresar al listado", "Index")*@
+    <a class="btn btn-primary" href="@Url.Action("Index", "Servicio")"><i class="glyphicon glyphicon-arrow-left"></i> Regresar al listado</a>
+</div>
+    }
+</div>

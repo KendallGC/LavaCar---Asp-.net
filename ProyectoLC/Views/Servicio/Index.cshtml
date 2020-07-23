@@ -1,0 +1,87 @@
+﻿@model IEnumerable<ENTIDAD.Servicios>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+
+    <link href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+}
+
+<h2>Servicios</h2>
+
+<p>
+    @*@Html.ActionLink("Crear Servicio", "Crear")*@
+    <a class="btn btn-primary" href="@Url.Action("Crear", "Servicio")"><i class="glyphicon glyphicon-plus"></i> Crear Servicio</a>
+</p>
+<table class="table" id="tableDemo">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_Servicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripción)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Monto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_Servicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripción)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Monto)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Editar", "Editar", new { id = item.ID_Servicio }) |
+                    @Html.ActionLink("Detalles", "GetServicio", new { id = item.ID_Servicio }) |
+                    @Html.ActionLink("Eliminar", "Eliminar", new { id = item.ID_Servicio })*@
+
+                    <a class="btn btn-primary btn-xs" title="Editar" href="@Url.Action("Editar", "Servicio", new { id = item.ID_Servicio })">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </a>
+                    <a class="btn btn-info btn-xs" title="Detalles" href="@Url.Action("GetServicio", "Servicio", new {  id = item.ID_Servicio })">
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                    </a>
+                    <a class="btn btn-danger btn-xs" title="Eliminar" href="@Url.Action("Eliminar", "Servicio", new {  id = item.ID_Servicio })">
+                        <i class="glyphicon glyphicon-trash"></i>
+                    </a>
+
+                </td>
+            </tr>
+        }
+
+    </tbody>
+   
+
+   
+
+</table>
+
+@section scripts{
+    <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <script>
+
+        $('#tableDemo').DataTable({
+            "pageLength": 4,
+            lengthMenu: [4, 8, 12, 16, 20, 100],
+        });
+    </script>
+}
+
